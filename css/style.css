@@ -1,0 +1,93 @@
+/*hexa decimal color
+#181717
+#00000054
+#b6b3b3
+#cc0606*/
+body {
+    background-color: #fff;
+    position: relative;
+    color: #080808;
+    font-family: Montserrat, arial, sans-serif;
+    line-height: 1.4;
+}
+
+.social-icons ul li a:link, 
+.social-icons ul li a:visited, 
+.social-icons ul li a:hover, 
+.social-icons ul li a:active {
+    color: #ffffff;
+}
+
+nav {
+    color: #fff;
+    background-color: #000000;
+    position: fixed;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);/*white*/
+}
+
+.home {
+    background-color: #cc0606;
+    background-image: url(../images/slide1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height:100vh;
+}
+/* sale deal box*/
+.dark-row {
+    background: #cc0606;
+    padding: 2rem;
+    color: #ffffff;
+    box-shadow: 3px 3px #00000054;
+}
+
+.dark-row h1 {
+    font-size: 5.5em;
+    text-shadow: 3px 3px black;
+}
+
+/* Trending */
+.trending {
+    background-color: #ffffff;
+    color:  #ff5851;
+    position: relative;
+    padding: 3em;
+}
+.trend {
+    padding: 1em;
+}
+.heading {
+    color: #080808;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.card {
+    box-shadow: 1px 1px #b6b3b3;
+    margin: 1em;
+}
+
+/*store page */
+.store {
+    background-color: #cc0606;
+}
+
+ul li {
+    list-style-type: none;
+    line-height: 1.6;
+}
+.list-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+/* footer */
+
+.footer {
+    color: #fff;
+    background-color: #181717;
+    padding: 3em;
+}
